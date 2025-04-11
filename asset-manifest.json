@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/business-hooks-react/static/css/main.5871c72d.css",
-    "main.js": "/business-hooks-react/static/js/main.9b42b9b1.js",
+    "main.css": "/business-hooks-react/static/css/main.3158e161.css",
+    "main.js": "/business-hooks-react/static/js/main.60766566.js",
     "index.html": "/business-hooks-react/index.html",
-    "main.5871c72d.css.map": "/business-hooks-react/static/css/main.5871c72d.css.map",
-    "main.9b42b9b1.js.map": "/business-hooks-react/static/js/main.9b42b9b1.js.map"
+    "main.3158e161.css.map": "/business-hooks-react/static/css/main.3158e161.css.map",
+    "main.60766566.js.map": "/business-hooks-react/static/js/main.60766566.js.map"
   },
   "entrypoints": [
-    "static/css/main.5871c72d.css",
-    "static/js/main.9b42b9b1.js"
+    "static/css/main.3158e161.css",
+    "static/js/main.60766566.js"
   ]
 }
