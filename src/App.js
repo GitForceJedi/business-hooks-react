@@ -58,12 +58,6 @@ function App() {
           onChange={(e) => setCost(Number(e.target.value))}
           placeholder="Enter cost amount"
         />
-        <input
-          type="number"
-          value={cost}
-          onChange={(e) => setCost(Number(e.target.value))}
-          placeholder="Enter cost"
-        />
         <p>Cost Price: ${cost}</p>
         <p>Sale Price (after discount): ${discountData.discountedAmount}</p>
         <p>Profit: ${profitData.profit}</p>
@@ -73,7 +67,6 @@ function App() {
       </div>
 
       <div className="right-panel">
-        <h2>Visualizations</h2>
         <div className="chart-container">
           <div className="chart-box">
             <h3>Bar Chart</h3>
