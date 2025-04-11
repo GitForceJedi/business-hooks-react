@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/business-hooks-react/static/css/main.5871c72d.css",
+    "main.js": "/business-hooks-react/static/js/main.f2ff9abf.js",
+    "index.html": "/business-hooks-react/index.html",
+    "main.5871c72d.css.map": "/business-hooks-react/static/css/main.5871c72d.css.map",
+    "main.f2ff9abf.js.map": "/business-hooks-react/static/js/main.f2ff9abf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5871c72d.css",
+    "static/js/main.f2ff9abf.js"
+  ]
+}
