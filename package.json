@@ -1,5 +1,5 @@
 {
-  "name": "react-hooks-demo",
+  "name": "business-hooks-react",
   "version": "1.0.0",
   "private": true,
   "homepage": "https://kenwillcode.github.io/business-hooks-react",
@@ -7,6 +7,7 @@
     "App": "./src/App.js"
   },
   "dependencies": {
+    "business-hooks-react": "file:",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-hooks-demo": "file:",
