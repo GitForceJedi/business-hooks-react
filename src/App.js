@@ -28,7 +28,14 @@ function App() {
         className="left-panel"
         style={{ padding: '2rem', fontFamily: 'Arial' }}
       >
+        <h1>Custom React Hooks - Business</h1>
+        <p>
+          This project is meant to showcase the power of custom React Hooks, in
+          the scope of Business Profit and Margin. Try adjusting both the
+        </p>
+
         <h2>useDiscountCalculator</h2>
+        <h3>Customer Purchase Amount:</h3>
         <input
           type="text"
           inputMode="decimal"
@@ -41,15 +48,22 @@ function App() {
         <p>Discount: {discountData.discountRate * 100}%</p>
         <p>Final: ${discountData.discountedAmount}</p>
 
-        <h2>Cost Input</h2>
+        <h2>useProfitCalculator</h2>
+        <h3>Business Cost Amount:</h3>
+        <input
+          type="text"
+          inputMode="decimal"
+          pattern="\d*"
+          value={cost}
+          onChange={(e) => setCost(Number(e.target.value))}
+          placeholder="Enter cost amount"
+        />
         <input
           type="number"
           value={cost}
           onChange={(e) => setCost(Number(e.target.value))}
           placeholder="Enter cost"
         />
-
-        <h2>useProfitCalculator</h2>
         <p>Cost Price: ${cost}</p>
         <p>Sale Price (after discount): ${discountData.discountedAmount}</p>
         <p>Profit: ${profitData.profit}</p>
